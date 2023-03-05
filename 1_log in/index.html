@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-poppins bg-[#97a0e8]">
+    <div class="bg-[#97a0e8] flex items-center justify-center h-screen">
+        <div
+            class="container h-4/5 w-full md:w-4/5 md:bg-white  rounded flex flex-col-reverse md:flex-row group bg-[#97a0e8] ">
+            <!-- product side -->
+            <div class="md:w-1/2 md:bg-[#5d6acf] w-full flex rounded-md">
+
+                <div class="product flex items-end justify-center w-full h-full relative">
+                    <div
+                        class="uppercase font-black text-3xl md:flex items-center justify-center w-full h-full absolute left-0 top-0 hidden ">
+                        <span
+                            class="  -rotate-90 whitespace-nowrap w-full h-full flex justify-center items-start text-[#a2aae4] transform translate-x-20 opacity-0 group-hover:opacity-100 group-hover:translate-x-32 duration-700">Measure, track, and reduce <br> your carbon footprint</span>
+                    </div>
+                    <div class=" product md:absolute right-0 bottom-0 flex items-center md:justify-center w-full
+                         md:opacity-100 md:block translate-y-1/2 md:translate-y-0">
+                        <img src="sapiens.png" alt="product"
+                            class="md:h-full object-cover md:transform md:group-hover:translate-x-32 md:transition-all md:duration-500 ease-in-out h-48 animate-cycle_move md:animate-none ">
+                        <div
+                            class="w-full h-5 bg-black md:bottom-16 md:left-20 absolute rounded-full bg-opacity-25 filter blur translate-y-12">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="w-32 h-full bg-white ml-auto hidden md:block"></div> -->
+            </div>
+            <!-- product side -->
+            <!-- form side -->
+
+            <!-- <div class="animate-cycle_move ease-in-out">
+                sovan
+            </div> -->
+
+
+            <div class="md:w-1/2 flex  items-center justify-center flex-col w-full ">
+                <div
+                    class=" p-8 bg-[#5d6acf] md:bg-transparent rounded-2xl md:rounded-lg translate-y-[4rem] md:translate-y-0 w-11/12 text-sm md:text-base ">
+                    <div class="header flex flex-col space-y-2">
+                        <div class="flex space-x-2 mb-10">
+                            <div
+                                class="logo w-8 h-8 bg-gradient-to-r from-blue-700 to-purple-300 rounded-lg justify-start">
+                            </div>
+                            <div class="md:text-xl font-bold text-lg">trackC</div>
+                        </div>
+                        <div>
+                            <span class="md:text-2xl font-bold text-xl ">Welcome back</span>
+                            <p class="text-sm md:text-base">Start your website in seconds. Don't have an account? <span
+                                    class="md:text-blue-700 hover:underline font-medium text-white">Sign up.</span></p>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 ">Your
+                            email</label>
+                        <input type="email" name="email" id="email"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5  dark:border-gray-300 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="name123@gmail.com" required="">
+                    </div>
+                    <div>
+                        <label for="password"
+                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
+                        <input type="password" name="password" id="password" placeholder="••••••••"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5  dark:border-gray-300 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            required="">
+                    </div>
+                    <div class="google my-6 w-full">
+                        <a href="#">
+                            <div
+                                class=" hover:bg-gray-100 text-center py-2 border md:border-gray-300 rounded-lg flex items-center justify-center space-x-2 border-blue-900 shadow-lg hover:border-gray-100">
+                                <img src="google.png" alt="" class="w-5 h-5">
+                                <div class="text-black  ">Sign in with google</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flex justify-between">
+                        <div>
+                            <input type="checkbox" id="checkbox" value="true">
+                            <label for="checkbox" class="md:text-gray-500 ">Remember me</label>
+                        </div>
+                        <div>
+                            <a href="#" class="md:text-blue-700 text-sm hover:underline text-gray-100">Forget
+                                Password?</a>
+                        </div>
+                    </div>
+                    <div class="w-full mt-5">
+                        <a href="#">
+                            <div
+                                class="button text-center bg-blue-700 text-white hover:bg-blue-800 py-2 rounded-lg shadow-lg">
+                                Sign in
+                                to your account</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- form side -->
+
+        </div>
+    </div>
+</body>
+
+</html>
